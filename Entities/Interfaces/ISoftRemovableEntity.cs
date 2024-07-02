@@ -1,7 +1,6 @@
-﻿namespace AutoRepairShop.Entities.Interfaces
+﻿namespace AutoRepairShop.Entities.Interfaces;
+
+public interface ISoftRemovableEntity : IEntity
 {
-    public interface ISoftRemovableEntity : IEntity
-    {
-        public bool Removed { get; set; }
-    }
+    public bool Removed { get; set; }
 }

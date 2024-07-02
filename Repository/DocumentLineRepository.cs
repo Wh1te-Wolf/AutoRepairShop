@@ -3,10 +3,9 @@ using AutoRepairShop.Repository.BaseRepositories;
 using AutoRepairShop.Repository.EF;
 using AutoRepairShop.Repository.Interfaces;
 
-namespace AutoRepairShop.Repository
-{
-    public class DocumentLineRepository : BaseRepository<DocumentLine, AutoRepairShopContext>, IDocumentLineRepository
-    {
+namespace AutoRepairShop.Repository;
 
-    }
+public class DocumentLineRepository : BaseRepository<DocumentLine, AutoRepairShopContext>, IDocumentLineRepository
+{
+
 }

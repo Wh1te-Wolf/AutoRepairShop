@@ -1,7 +1,6 @@
-﻿namespace AutoRepairShop.Entities.Interfaces
+﻿namespace AutoRepairShop.Entities.Interfaces;
+
+public interface IEntity
 {
-    public interface IEntity
-    {
-        public Guid UUID { get; set; }
-    }
+    public Guid UUID { get; set; }
 }

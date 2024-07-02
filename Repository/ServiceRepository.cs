@@ -3,10 +3,9 @@ using AutoRepairShop.Repository.BaseRepositories;
 using AutoRepairShop.Repository.EF;
 using AutoRepairShop.Repository.Interfaces;
 
-namespace AutoRepairShop.Repository
-{
-    public class ServiceRepository : BaseDictionaryRepository<Service, AutoRepairShopContext>, IServiceRepository
-    {
+namespace AutoRepairShop.Repository;
 
-    }
+public class ServiceRepository : BaseSoftRemovableRepository<Service, AutoRepairShopContext>, IServiceRepository
+{
+
 }

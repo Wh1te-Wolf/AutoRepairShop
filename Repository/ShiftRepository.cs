@@ -3,10 +3,9 @@ using AutoRepairShop.Repository.BaseRepositories;
 using AutoRepairShop.Repository.EF;
 using AutoRepairShop.Repository.Interfaces;
 
-namespace AutoRepairShop.Repository
-{
-    public class ShiftRepository : BaseDictionaryRepository<Shift, AutoRepairShopContext>, IShiftRepository
-    {
+namespace AutoRepairShop.Repository;
 
-    }
+public class ShiftRepository : BaseSoftRemovableRepository<Shift, AutoRepairShopContext>, IShiftRepository
+{
+
 }

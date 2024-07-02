@@ -1,9 +1,8 @@
 ﻿using AutoRepairShop.Entities;
 
-namespace AutoRepairShop.Repository.Interfaces
-{
-    public interface ICustomerRepository : IRepository<Customer>
-    {
+namespace AutoRepairShop.Repository.Interfaces;
 
-    }
+public interface ICustomerRepository : IRepository<Customer>
+{
+
 }
